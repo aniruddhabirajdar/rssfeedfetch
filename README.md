@@ -25,3 +25,5 @@ $ rake spec
 /feeds/new :- Add new feed into feed list
 /feeds/:id/edit :- edit feed list items
 ```
+
+Using cron-jobs we can load RSS feed frequently.
