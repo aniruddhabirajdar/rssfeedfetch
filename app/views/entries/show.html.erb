@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @entry.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @entry.content %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @entry.url %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @entry.author %>
+</p>
+
+<p>
+  <strong>Feed:</strong>
+  <%= @entry.feed_id %>
+</p>
+
+<p>
+  <strong>Published:</strong>
+  <%= @entry.published %>
+</p>
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>
